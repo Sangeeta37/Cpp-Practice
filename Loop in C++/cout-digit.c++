@@ -10,6 +10,6 @@ int main(){
        count ++; // it counts digit in any number
         n = n / 10 ;
     }
-    cout<<"Count is : "<<count;
+    cout<<"total digits : "<<count;
     return 0 ; 
 }
