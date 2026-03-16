@@ -3,13 +3,13 @@ using namespace std;
 int main(){
     int r, n , sum=0, temp;
     cout<<"Enter a number :";
-cin>>n;
+    cin>>n;
    
     while(n!=0){
-        r = n % 10 ;
-        sum = sum + r ;
+        r = n % 10 ; 
+        sum = sum + r ;//it sum all digits
         n = n / 10 ;
     }
-  cout<<"Sum is : "<<sum;
-  return 0 ; 
+    cout<<"Sum is : "<<sum;
+    return 0 ; 
 }
