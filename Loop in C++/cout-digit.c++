@@ -7,7 +7,7 @@ int main(){
    
     while(n!=0){
         r = n % 10 ; 
-       count ++;
+       count ++; // it counts digit in any number
         n = n / 10 ;
     }
     cout<<"Count is : "<<count;
