@@ -9,7 +9,7 @@ int main()
     temp=n;
     while(n != 0){
         r = n % 10 ;
-        sum = sum + pow(r,3); //r*r*r ;
+        sum = sum + pow(r,3);  //r*r*r ;
         n = n / 10 ;
     }
     if(sum==temp){
@@ -19,4 +19,4 @@ int main()
         cout<<temp<<" is not Armstrong";
     }
 return 0;
-}
+} 
